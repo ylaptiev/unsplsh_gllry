@@ -1,0 +1,42 @@
+name: agora_tt
+description: "Agora Software Test Task"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  auto_route: ^5.0.4
+  bloc: ^8.1.0
+  cached_network_image: ^3.3.1
+  dartz: ^0.10.1
+  dio: ^5.4.1
+  envied: ^0.5.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_svg: ^2.0.10+1
+  freezed_annotation: ^2.1.0
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+  json_annotation: ^4.8.1
+  provider: ^6.1.2
+  retrofit: ^4.1.0
+
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.1
+  freezed: ^2.1.0+1
+  injectable_generator: ^1.5.4
+  json_serializable: ^6.7.1
+  auto_route_generator: any
+  retrofit_generator: '>=7.0.0 <8.0.0'
+  envied_generator: ^0.5.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/ic_instagram.svg
